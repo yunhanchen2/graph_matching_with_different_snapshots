@@ -1,0 +1,5 @@
+/Users/carina/Desktop/snapshot final/build/CMakeFiles/MyProject.dir
+/Users/carina/Desktop/snapshot final/build/CMakeFiles/docs.dir
+/Users/carina/Desktop/snapshot final/build/CMakeFiles/main.dir
+/Users/carina/Desktop/snapshot final/build/CMakeFiles/edit_cache.dir
+/Users/carina/Desktop/snapshot final/build/CMakeFiles/rebuild_cache.dir

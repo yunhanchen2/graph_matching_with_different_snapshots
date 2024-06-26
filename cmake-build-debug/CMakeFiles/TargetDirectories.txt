@@ -1,0 +1,5 @@
+/Users/carina/Desktop/Quick/cmake-build-debug/CMakeFiles/MyProject.dir
+/Users/carina/Desktop/Quick/cmake-build-debug/CMakeFiles/docs.dir
+/Users/carina/Desktop/Quick/cmake-build-debug/CMakeFiles/main.dir
+/Users/carina/Desktop/Quick/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/carina/Desktop/Quick/cmake-build-debug/CMakeFiles/rebuild_cache.dir
