@@ -15,6 +15,9 @@ add_library(${PROJECT_NAME} ${SRC_FILES})
 file(GLOB_RECURSE DOC_FILES "doc/*.txt")
 add_custom_target(docs SOURCES ${DOC_FILES})
 
+find_package(Threads REQUIRED)
+target_link_libraries(main PRIVATE Threads::Threads)
+
 target_link_libraries(${PROJECT_NAME} PUBLIC)
 
 set(EXECUTABLE_NAME "main")
