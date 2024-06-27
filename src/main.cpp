@@ -7,6 +7,7 @@
 #include <pthread.h>
 #include "../include/PatternGraph.h"
 #include "../include/CSRGraph.h"
+#include "../ matchingEngine.h"
 #include <chrono>
 
 using namespace std;
@@ -157,6 +158,14 @@ void* graph_matching_threads(void *n){
 
 int main(int argc,char* argv[]) {
 
+
+    engine obj;
+    graph obj_graph(filename1);
+    pattern obj_pattern(filename2);
+    int number_of_threads_used = argv[???];
+    obj.run(obj_graph, obj_pattern, number_threads...);
+    obj.print();
+    
     pthread_mutex_init(&mu, NULL);
 
     if (argc > 2) {
